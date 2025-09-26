@@ -13,7 +13,7 @@ This repository contains a tiny, runnable example to help you learn how SignalR 
 - [✅ Pros and Cons](#-pros-and-cons)
 - [🛠️ Implementations and Use-cases](#️-implementations-and-use-cases)
 - [📥 Git and Publish (quick commands)](#-git-and-publish-quick-commands)
-- [📝 Notes and Tips](#-notes---tips)
+- [📝 Notes and Tips](#-notes-and-tips)
 - [📚 References](#-references)
 
 ---
@@ -213,7 +213,7 @@ obj/
 
 ---
 
-## 📝 Notes & Tips
+## 📝 Notes And Tips
 - For production scale, consider **Azure SignalR Service** or use **Redis** backplane for multiple app instances.
 - Enable HTTPS for production. If testing locally, `dotnet run` will show the HTTPS URL.
 - If you need private rooms, use groups: `await Groups.AddToGroupAsync(Context.ConnectionId, "room-1");`
