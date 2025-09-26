@@ -13,7 +13,7 @@ This repository contains a tiny, runnable example to help you learn how SignalR 
 - [✅ Pros and Cons](#-pros-and-cons)
 - [🛠️ Implementations and Use-cases](#️-implementations-and-use-cases)
 - [📥 Git and Publish (quick commands)](#-git-and-publish-quick-commands)
-- [📝 Notes and Tips](#-notes-and-tips)
+- [📝 Notes and Tips](#-notes---tips)
 - [📚 References](#-references)
 
 ---
