@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/abdullahalfahad/Documents/GithubProjects/SignalRChatApp/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SignalRChatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SignalRChatApp.props",
+      "PackagePath": "build\\SignalRChatApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SignalRChatApp.props",
+      "PackagePath": "buildMultiTargeting\\SignalRChatApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SignalRChatApp.props",
+      "PackagePath": "buildTransitive\\SignalRChatApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

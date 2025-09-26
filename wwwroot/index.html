@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+</head>
+<body>
+    <h2>SignalR Chat Demo 🚀</h2>
+    <input type="text" id="userInput" placeholder="Your name..." />
+    <input type="text" id="messageInput" placeholder="Write a message..." />
+    <button onclick="sendMessage()">Send</button>
+
+    <ul id="messagesList"></ul>
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatHub")
+            .build();
+
+        connection.on("ReceiveMessage", (user, message) => {
+            const li = document.createElement("li");
+            li.textContent = `${user}: ${message}`;
+            document.getElementById("messagesList").appendChild(li);
+        });
+
+        async function start() {
+            try {
+                await connection.start();
+                console.log("Connected to SignalR");
+            } catch (err) {
+                console.error(err);
+                setTimeout(start, 5000);
+            }
+        }
+
+        function sendMessage() {
+            const user = document.getElementById("userInput").value;
+            const message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessage", user, message).catch(err => console.error(err));
+        }
+
+        start();
+    </script>
+</body>
+</html>
