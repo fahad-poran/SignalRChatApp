@@ -10,10 +10,10 @@ This repository contains a tiny, runnable example to help you learn how SignalR 
 - [🚀 Quick Usage (Run locally)](#-quick-usage-run-locally)
 - [🧩 Minimal Source Files](#-minimal-source-files)
 - [🔁 Alternatives](#-alternatives)
-- [✅ Pros & ❌ Cons](#-pros--cons)
-- [🛠️ Implementations / Use-cases](#️-implementations-use-cases)
-- [📥 Git / Publish (quick commands)](#-git-publish-quick-commands)
-- [📝 Notes & Tips](#-notes-tips)
+- [✅ Pros and Cons](#-pros-and-cons)
+- [🛠️ Implementations and Use-cases](#️-implementations-and-use-cases)
+- [📥 Git and Publish (quick commands)](#-git-and-publish-quick-commands)
+- [📝 Notes and Tips](#-notes-and-tips)
 - [📚 References](#-references)
 
 ---
@@ -161,7 +161,7 @@ namespace SignalRChatApp
 
 ---
 
-## ✅ Pros & ❌ Cons
+## ✅ Pros & Cons
 
 ### ✅ Pros
 - Simple to use in ASP.NET Core & .NET ecosystem.
@@ -176,7 +176,7 @@ namespace SignalRChatApp
 
 ---
 
-## 🛠️ Implementations / Use-cases
+## 🛠️ Implementations and Use-cases
 - Chat systems (1:1, group chat)
 - Live dashboards and telemetry
 - Collaborative editing & presence indicators
@@ -185,7 +185,7 @@ namespace SignalRChatApp
 
 ---
 
-## 📥 Git / Publish (quick commands)
+## 📥 Git and Publish (quick commands)
 
 If you want to push to GitHub (classic `git` approach):
 
