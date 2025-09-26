@@ -5,7 +5,18 @@ A **minimal real-time chat application** built with **ASP.NET Core + SignalR**.
 This repository contains a tiny, runnable example to help you learn how SignalR (WebSockets under the hood) enables low-latency, bi-directional communication.
 
 ---
+## 📋 Table of Contents
+- [📌 Description](#-description)
+- [🚀 Quick Usage (Run locally)](#-quick-usage-run-locally)
+- [🧩 Minimal Source Files](#-minimal-source-files)
+- [🔁 Alternatives](#-alternatives)
+- [✅ Pros & ❌ Cons](#-pros--cons)
+- [🛠️ Implementations / Use-cases](#️-implementations-use-cases)
+- [📥 Git / Publish (quick commands)](#-git-publish-quick-commands)
+- [📝 Notes & Tips](#-notes-tips)
+- [📚 References](#-references)
 
+---
 ## 📂 Project Structure
 ```
 SignalRChatApp/
